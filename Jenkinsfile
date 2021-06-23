@@ -17,7 +17,7 @@ pipeline{
 			}
         stage("Integration Stage"){
 			steps{
-				sh 'cd C:/Users/indra/Desktop'
+				
 				sh 'ls'
          
 				}
