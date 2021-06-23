@@ -17,7 +17,7 @@ pipeline{
 			}
         stage("Integration Stage"){
 			steps{
-				sh 'cd C:\Users\indra\Desktop\das Lernen\Aktivitaten\CICD\jenkins-react-devops'
+				sh 'cd C:/Users/indra/Desktop/das Lernen/Aktivitaten/CICD/jenkins-react-devops'
 				sh 'npm build'
                 sh "ls"
 				}
