@@ -48,8 +48,8 @@ pipeline{
 				steps{
 					script{
                         docker.withRegistry('', dockerhub){
-                            dockerImage.push()
-                            dockerImage.push('latest')
+                            dockerImage.push();
+                            dockerImage.push('latest');
                         }
                     }
 				}
